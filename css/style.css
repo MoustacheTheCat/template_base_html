@@ -21,10 +21,11 @@ h6 {
 
 body {
     font-size: 1rem;
-    width: 100%;
     margin: 0;
     padding: 0;
     border: 0;
+    /* overflow: hidden; */
+    height: 100%;
 }
 
 ul {
@@ -45,55 +46,48 @@ svg:hover{
 .container {
     display: grid;
     width: 100%;
+    grid-auto-rows: 100%;
 }
-
 
 /* --------------------------------------- @mediaQuery --------------------------------------------------- */
 
-@media (max-width: 30rem){
 /* Screen max 480px */
-    body {
-        overflow: hidden;
-    }
-    
+@media (max-width: 30rem) {
+
     .container {
         grid-template-columns: 1fr;
         
     }
 }
 
-@media screen and (min-width: 30rem) and (max-width: 48rem)
 /* Screen min 480px and max 768px */
-    {
+@media screen and (min-width: 30rem) and (max-width: 48rem) {
+
     .container {
         grid-template-columns: repeat(2, 1fr);
-        font-size: 80%;
     }
 }
 
-@media screen and (min-width: 48rem) and (max-width: 75rem)
 /* Screen min 768px and max 1200px */
-    {
+@media screen and (min-width: 48rem) and (max-width: 75rem) {
+
     .container {
         grid-template-columns: repeat(3, 1fr);
-        font-size: 90%;
     }
 }
 
-@media screen and (min-width: 75rem) and (max-width: 114rem)
 /* Screen min 1200px and max 1824px */
-    {
+@media screen and (min-width: 75rem) and (max-width: 114rem) {
+
     .container {
         grid-template-columns: repeat(4, 1fr);
-        font-size: 100%;
     }
 }
 
-@media screen and (min-width: 114rem)
 /* Screen min 1824px */
-    {
+@media screen and (min-width: 114rem) {
+
     .container {
         grid-template-columns: repeat(5, 1fr);
-        font-size: 100%;
     }
 }
