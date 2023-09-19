@@ -17,11 +17,23 @@
     padding: 1rem;
 }
 
+main {
+    width: 100%;
+}
+
 
     
 @media screen and (min-width: 30rem) and (max-width: 48rem)
 /* Screen min 480px and max 768px */
     {
+    main {
+        grid-column: 1/3;
+        
+    }
+
+    h1 {
+        font-size: 1rem;
+    }
     .section-title-page-home {
         height: 20rem;
     }
@@ -41,6 +53,10 @@
     .section-contenue-page-home {
         height: 10rem;
     }
+
+    main {
+        grid-column: 1/4;
+    }
 }
 
 @media screen and (min-width: 75rem) and (max-width: 114rem)
@@ -49,6 +65,14 @@
     .section-title-page-home {
         height: 40rem;
     }
+
+    main {
+        grid-column: 1/5;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
 }
 
 @media screen and (min-width: 114rem)
@@ -56,5 +80,13 @@
     {
     .section-title-page-home {
         height: 50rem;
+    }
+
+    main {
+        grid-column: 1/6;
+    }
+
+    h1 {
+        font-size: 5rem;
     }
 }
