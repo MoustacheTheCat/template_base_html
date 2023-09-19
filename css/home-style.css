@@ -1,0 +1,60 @@
+.section-title-page-home {
+    background-image: url(../img/picture/home-page.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: static;
+    background-size: 100% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    
+
+}
+
+.section-contenue-page-home {
+    height: 4.8rem;
+    padding: 1rem;
+}
+
+
+    
+@media screen and (min-width: 30rem) and (max-width: 48rem)
+/* Screen min 480px and max 768px */
+    {
+    .section-title-page-home {
+        height: 20rem;
+    }
+
+    .section-contenue-page-home {
+        height: 10rem;
+    }
+}
+
+@media screen and (min-width: 48rem) and (max-width: 75rem)
+/* Screen min 768px and max 1200px */
+    {
+    .section-title-page-home {
+        height: 30rem;
+    }
+
+    .section-contenue-page-home {
+        height: 10rem;
+    }
+}
+
+@media screen and (min-width: 75rem) and (max-width: 114rem)
+/* Screen min 1200px and max 1824px */
+    {
+    .section-title-page-home {
+        height: 40rem;
+    }
+}
+
+@media screen and (min-width: 114rem)
+/* Screen min 1824px */
+    {
+    .section-title-page-home {
+        height: 50rem;
+    }
+}
