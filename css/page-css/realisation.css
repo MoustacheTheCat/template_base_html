@@ -39,3 +39,83 @@
         grid-column: 1/6;
     }
 }
+
+main div h1 {
+    text-align: center;
+}
+
+.vue-arcticle {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    
+}
+
+/********* Superposition simple de texte sur une image *******/
+
+/* Conteneur principal */
+.overlay-image {
+    position: relative;
+    width: 20rem;
+    height: 18rem;
+    margin: 1rem;
+}
+
+/* Image originale */
+.overlay-image .image {
+    display: block;
+    width: 100%;
+    height: 13.5rem;
+}
+
+/* Texte original */
+.overlay-image .text h2,
+.overlay-image .text p{
+    color: #fff;
+    line-height: 1.5em;
+    text-shadow: 2px 2px 2px #000;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.overlay-image .text h2 {
+    font-size: 2rem;
+}
+
+.overlay-image .text p{
+    font-size: 1.2rem;
+}
+
+/********* Hover image et texte *******/
+
+/* Overlay */
+.overlay-image .hover {
+    position: absolute;
+    top: 0;
+    height: 75%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+/* Apparition overlay sur passage souris */
+.overlay-image:hover .hover {
+opacity: 1;
+}
+
+/********* Hover background et texte uniquement *******/
+
+.overlay-image .normal {
+    transition: .5s ease;
+}
+.overlay-image:hover .normal {
+opacity: 0;
+}
+.overlay-image .hover {
+background-color: rgba(0,0,0,0.5);
+}
