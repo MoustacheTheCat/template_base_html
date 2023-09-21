@@ -26,6 +26,12 @@ body {
     border: 0;
     /* overflow: hidden; */
     height: 100%;
+    --russian:#020024;
+    --navy:#090979;
+    --summer:#1fb1e6;
+    --iris:#02a8e2;
+    --pelorous:#1590bd;
+    --sky:#00d4ff;
 }
 
 ul {
