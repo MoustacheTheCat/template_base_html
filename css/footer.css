@@ -8,9 +8,12 @@ footer {
 
 
 /* Screen min 320px and max 480px */
-/* @media (min-width: 20rem) and (max-width: 30rem) {
-    
-} */
+@media (min-width: 20rem) and (max-width: 30rem) {
+    footer {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+}
 /* Screen min 480px and max 768px */
 /* @media (min-width: 30rem) and (max-width: 48rem) {
     footer {
