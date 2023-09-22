@@ -1,5 +1,5 @@
 header {
-    background-color: blue;
+    background-color: #1fb1e6;
     display: flex; 
     align-items: center;
     flex-flow: row wrap;
@@ -15,6 +15,11 @@ header {
 
 .div-logo a {
     color: aliceblue;
+}
+
+.div-logo a img {
+    height: 4rem;
+    width: 4rem;
 }
 
 /* TOGLE MENU */
@@ -51,7 +56,7 @@ input[type=checkbox] {
 }
 
 .menu li:hover {
-    background-color: blue;
+    background-color: #1fb1e6;
     border-radius: 0.55rem;
     transition: 0.3s ease;
 }
@@ -69,7 +74,7 @@ input[type=checkbox] {
     .menu {
         display:none;
         position: absolute;
-        background-color:blue;
+        background-color:#1fb1e6;
         right: 0;
         left: 0;
         text-align: center;
@@ -106,7 +111,7 @@ input[type=checkbox] {
     .menu {
         display:none;
         position: absolute;
-        background-color:blue;
+        background-color:#1fb1e6;
         right: 0;
         left: 0;
         text-align: center;
