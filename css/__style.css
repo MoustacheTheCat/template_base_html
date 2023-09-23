@@ -67,7 +67,7 @@ svg:hover{
 }
 
 /* Screen min 480px and max 768px */
-@media screen and (min-width: 30rem) and (max-width: 48rem) {
+@media (min-width: 30rem) and (max-width: 48rem) {
 
     .container {
         grid-template-columns: repeat(2, 1fr);
@@ -75,7 +75,7 @@ svg:hover{
 }
 
 /* Screen min 768px and max 1200px */
-@media screen and (min-width: 48rem) and (max-width: 75rem) {
+@media (min-width: 48rem) and (max-width: 75rem) {
 
     .container {
         grid-template-columns: repeat(3, 1fr);
@@ -83,7 +83,7 @@ svg:hover{
 }
 
 /* Screen min 1200px and max 1824px */
-@media screen and (min-width: 75rem) and (max-width: 114rem) {
+@media (min-width: 75rem) and (max-width: 114rem) {
 
     .container {
         grid-template-columns: repeat(4, 1fr);
@@ -91,7 +91,7 @@ svg:hover{
 }
 
 /* Screen min 1824px */
-@media screen and (min-width: 114rem) {
+@media (min-width: 114rem) {
 
     .container {
         grid-template-columns: repeat(5, 1fr);

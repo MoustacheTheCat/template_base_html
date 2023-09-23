@@ -6,6 +6,19 @@ footer {
 
 /* --------------------------------------- @mediaQuery --------------------------------------------------- */
 
+/* Screen max 320px */
+@media (max-width: 20rem) {
+    footer {
+        grid-column: 1/1;
+    }
+} 
+
+/* Screen min 320px and max 480px */
+@media (min-width: 20rem) and (max-width: 30rem) {
+    footer {
+        grid-column: 1/1;
+    }
+} 
 
 /* Screen min 320px and max 480px */
 @media (min-width: 20rem) and (max-width: 30rem) {
@@ -15,37 +28,37 @@ footer {
     }
 }
 /* Screen min 480px and max 768px */
-/* @media (min-width: 30rem) and (max-width: 48rem) {
+@media (min-width: 30rem) and (max-width: 48rem) {
     footer {
         grid-column: 1/3;
     }
-} */
+}
 
 /* Screen min 768px and max 1024px */
-/* @media (min-width: 48rem) and (max-width: 64rem) {
+@media (min-width: 48rem) and (max-width: 64rem) {
     footer {
         grid-column: 1/4;
     }
-} */
+}
 
 /* Screen min 1024px and max 1224px */
-/* @media screen and (min-width: 64rem) and (max-width: 76.5rem) {
+@media (min-width: 64rem) and (max-width: 76.5rem) {
     footer {
         grid-column: 1/5;
     }
-} */
+} 
 
 /* Screen min 1224px and max 1824px */
-/* @media screen and (min-width: 76.5rem) and(max-width: 114rem){
+@media (min-width: 76.5rem) and (max-width: 114rem){
     footer {
         grid-column: 1/6;
     }
-} */
+}
 
 
 /* Screen min 1824 */
-/* @media screen (min-width: 114rem){
+@media (min-width: 114rem){
     footer {
         grid-column: 1/7;
     }
-} */
+} 

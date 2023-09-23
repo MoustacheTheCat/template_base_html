@@ -116,7 +116,7 @@ input[type=checkbox] {
 }
 
 /* Screen min 480px and max 768px */   
-@media screen and (min-width: 30rem) and (max-width: 48rem) {
+@media (min-width: 30rem) and (max-width: 48rem) {
     
     header {
         grid-column: 1/3;
@@ -152,7 +152,7 @@ input[type=checkbox] {
 }
 
 /* Screen min 768px and max 1200px */
-@media screen and (min-width: 48rem) and (max-width: 75rem) {
+@media (min-width: 48rem) and (max-width: 75rem) {
 
     header {
         grid-column: 1/4;
@@ -165,7 +165,7 @@ input[type=checkbox] {
 }
 
 /* Screen min 1200px and max 1824px */
-@media screen and (min-width: 75rem) and (max-width: 114rem) {
+@media (min-width: 75rem) and (max-width: 114rem) {
     
     header {
         grid-column: 1/5;
@@ -178,7 +178,7 @@ input[type=checkbox] {
 }
 
 /* Screen min 1824px */
-@media screen and (min-width: 114rem) {
+@media (min-width: 114rem) {
 
     header{
         grid-column: 1/6;
