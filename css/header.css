@@ -57,6 +57,7 @@ input[type="checkbox"]#nav-check {
     max-height: 0%;
     overflow: hidden;
     transition: max-height 1s;
+    z-index: 2;
   }
 
   #menu-nav ul li a {
@@ -69,24 +70,17 @@ input[type="checkbox"]#nav-check {
     text-decoration: none;
   }
 
- 
-
-  label {
-    display: block;
-    z-index: 1;
-    padding: 0.5rem 0.5rem;
-    color: aliceblue;
-    text-align: center;
-    font-weight: bold;
-    cursor: pointer;
-  }
   #togle-logo {
     position: absolute;
     top: 1rem;
     right: 1rem;
     display: inline-block;
     cursor: pointer;
-    display: block;
+    padding: 0.5rem 0.5rem;
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
   }
   #togle-logo span {
     display: block;
