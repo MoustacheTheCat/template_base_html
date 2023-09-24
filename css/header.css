@@ -23,6 +23,7 @@ header {
 .logo-perso:hover {
   cursor: pointer;
   opacity: 10;
+  transition: .5s ease;
 }
 
 .div-logo-perso p {
@@ -37,6 +38,7 @@ input[type="checkbox"]#nav-check {
   cursor: pointer;
   transition: 0.4s;
   color: #020024;
+  transition: .5s ease;
 }
 
 @media (max-width: 768px) {
