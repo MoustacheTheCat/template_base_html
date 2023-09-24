@@ -5,12 +5,24 @@ header {
   height: 5rem;
 }
 
+.div-logo-perso {
+  display: block;
+}
+
+
+
 .logo-perso {
   height: 4rem;
   width: 4rem;
   position: absolute;
   top: 0.5rem;
   left: 0.5rem;
+  z-index: 1;
+}
+
+.logo-perso:hover {
+  cursor: pointer;
+  opacity: 10;
 }
 
 .div-logo-perso p {
@@ -19,6 +31,12 @@ header {
 
 input[type="checkbox"]#nav-check {
   display: none;
+}
+
+#menu-nav ul li a:hover{
+  cursor: pointer;
+  transition: 0.4s;
+  color: #020024;
 }
 
 @media (max-width: 768px) {
@@ -43,12 +61,17 @@ input[type="checkbox"]#nav-check {
     display: block;
     width: 100%;
     padding: 1em;
+    color: aliceblue;
     background: #1fb1e6;
     text-align: center;
     text-decoration: none;
   }
+
+ 
+
   label {
     display: block;
+    z-index: 1;
     padding: 0.5rem 0.5rem;
     color: aliceblue;
     text-align: center;
@@ -70,7 +93,7 @@ input[type="checkbox"]#nav-check {
     height: 0.2rem;
     background-color: aliceblue;
     margin: 0.32rem 0;
-    transition: 0.4s;
+    transition: 1s;
   }
 
   input[type="checkbox"]#nav-check:checked ~ label #sp-1 {
@@ -123,10 +146,9 @@ input[type="checkbox"]#nav-check {
   header {
     grid-column: 1/4;
   }
+
   .div-logo-perso p {
-    position: absolute;
-    top: 1rem;
-    left: 5rem;
+    display: none;
   }
   .div-nav {
     position: absolute;

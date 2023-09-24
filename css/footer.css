@@ -5,6 +5,58 @@ footer {
     background-color: #1fb1e6;
 }
 
+.logo-footer h2 {
+    color: aliceblue;
+}
+
+.logo-footer,
+.logo-footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.logo-footer {
+    flex-direction: column;
+    padding: 0;
+}
+
+.logo-footer ul {
+    padding: 0;
+    flex-direction: row;
+}
+
+.logo-footer ul li {
+    margin: 0.5rem;
+    padding: 0;
+}
+
+
+
+#logo-linkedin svg,
+#logo-github svg {
+    stroke: aliceblue;
+    fill: aliceblue;
+}
+
+#logo-github svg {
+    height: 3rem;
+    width: 3rem;
+}
+
+
+#logo-linkedin svg {
+    height: 4rem;
+    width: 4rem;
+}
+
+#logo-linkedin svg:hover,
+#logo-github svg:hover {
+    stroke: #020024;
+    fill: #020024;
+}
+
+
 /* --------------------------------------- @mediaQuery --------------------------------------------------- */
 
 /* Screen max 320px */

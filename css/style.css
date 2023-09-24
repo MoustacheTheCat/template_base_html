@@ -88,7 +88,7 @@ a {
 /* Screen min 768px and max 1024px */
 @media (min-width: 48rem) and (max-width: 64rem) {
     .container {
-        grid-template-columns: repeat3, 1fr;
+        grid-template-columns: repeat(3, 1fr);
     }
     .main {
     grid-column: 1/4
