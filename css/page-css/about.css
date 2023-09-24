@@ -1,4 +1,4 @@
-main {
+.main-about {
     color: #1fb1e6;
     display: flex;
     flex-direction: column;
@@ -10,6 +10,10 @@ main {
     height: 12rem;
     width: 10rem;
 
+}
+
+.div-title h1 {
+    font-size: 2rem;
 }
 
 .div-bio,
@@ -73,13 +77,16 @@ main {
 
 /* Screen min 768px */
 @media (min-width: 48rem) {
-    main {
+    .main-about {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows:20% 35% 35% 10%;
         row-gap: 2.5rem;
         margin-left: 6rem;
         margin-right: 6rem;
+    }
+    .div-title h1 {
+        font-size: 4rem;
     }
     .div-title,
     .div-comp {

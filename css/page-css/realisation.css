@@ -2,9 +2,11 @@ main {
     margin: 0 1rem 0 1rem;
 }
 
-main div h1 {
+.div-title h1 {
     text-align: center;
     color: #1fb1e6;
+    margin: 5rem 0 4rem 0;
+    font-size: 2rem;
 }
 
 .vue-arcticle {
@@ -14,7 +16,7 @@ main div h1 {
     flex-flow: row wrap;
     background-color: #1fb1e6;
     opacity: .5;
-    margin: 3rem;
+    margin: 5rem;
     padding: 2rem;
 
 }
@@ -93,7 +95,12 @@ main div h1 {
         padding: 0.5rem 1rem;
     }
 } 
-
+/* Screen min 768px */
+@media (min-width: 48rem) {
+    .div-title h1{
+        font-size: 4rem;
+    }
+}
 /* Screen max 320px */
 /* @media (max-width: 20rem) {} */
 
