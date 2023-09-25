@@ -21,28 +21,10 @@
 /* @media (min-width: 48rem) and (max-width: 64rem) {} */
 
 /* Screen min 1024px and max 1224px */
-@media (min-width: 64rem) and (max-width: 76.5rem) {
-    .div-picture img,
-    .div-bio {
-        height: 22rem;
-        width: 18rem;
-    }
-} 
+/* @media (min-width: 64rem) and (max-width: 76.5rem) {} */
 
 /* Screen min 1224px and max 1824px */
-@media (min-width: 76.5rem) and (max-width: 114rem){
-    .div-picture img,
-    .div-bio {
-        height: 24rem;
-        width: 20rem;
-    }
-} 
+/* @media (min-width: 76.5rem) and (max-width: 114rem){} */
 
 /* Screen min 1824 */
-@media (min-width: 114rem) {
-    .div-picture img,
-    .div-bio {
-        height: 24rem;
-        width: 20rem;
-    }
-} 
+/* @media (min-width: 114rem) {} */
